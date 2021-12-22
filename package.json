@@ -1,11 +1,24 @@
 {
   "name": "workshop_make-your-own-codewars",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6619875&assignment_repo_type=AssignmentRepo) # Make your own CodeWars",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"},
   "author": "School of Code",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://tom-dichmont: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@github.com/SchoolOfCode/w6d3_make-your-own-codewars_workshop-thomas-and-joan.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/w6d3_make-your-own-codewars_workshop-thomas-and-joan/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/w6d3_make-your-own-codewars_workshop-thomas-and-joan#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+
+  "type": "module"
 }
